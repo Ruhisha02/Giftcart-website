@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Giftcart</title>
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
 
 <body>
@@ -14,117 +25,130 @@
   <div class="header">
     <img class="logo" src="./assets/img/logo1.png">
     <ul>
-      <a>Categories</a>
-      <a>Gifts</a>
-      <a>Personilized</a>
-      <a>Anniversary gifts</a>
-      <a>Occasions</a>
-      <a>Recipients</a>
+    
+      <li>Categories</li>
+      <li>Gifts</li>
+      <li>Personilized</li>
+      <li>Anniversary gifts</li>
+      <li>Occasions</li>
+      <li>Recipients</li>
     </ul>
     <i class="fa-solid fa-truck"></i>
     <i class="fa-solid fa-user"></i>
     <i class="fa-solid fa-cart-shopping"></i>
   </div>
-  <div class="nav">
-    <div class="category">
-      <img src="./assets/img/val1.png">
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <img  src="./assets/img/val1.png">
     </div>
-    <div class="category">
+    <div class="item">
       <img src="./assets/img/rose 1.png">
     </div>
-    <div class="category">
+    <div class="item">
       <img src="./assets/img/wooden1.png">
-
     </div>
-    <div class="category">
+    <div class="item">
       <img src="./assets/img/flowercake1.png">
-
     </div>
-    <div class="category">
-      <img src=".//assets/img/2per.png">
-
+    <div class="item">
+      <img src="./assets/img/personlized 1.png">
     </div>
-    <div class="category">
+    <div class="item">
       <img src="./assets/img/naught1.png">
-
     </div>
-    <div class="category">
+    <div class="item">
       <img src="./assets/img/hatke.png">
-
     </div>
+
   </div>
+
   <div class="background1">
     <img src="./assets/img/background1.webp">
   </div>
-  <div class="section">
-    <div class="sub-category1">
-      <img class="categoryImg" src="./assets/img/men.avif">
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <div class="picS">
+      <img src="./assets/img/men.avif">
+      </div>
       <span class="categoryTabs1">Men</span>
     </div>
-    <div class="sub-category1">
-      <img class="categoryImg" src="./assets/img/women.avif">
+    <div class="item">
+      <div class="picS">
+      <img src="./assets/img/women.avif">
+      </div>
       <span class="categoryTabs1">Women</span>
     </div>
-    <div class="sub-category1">
-      <img class="categoryImg" src="./assets/img/husband.webp">
-      <span class="categoryTabs1">Husband</span>
+    <div class="item">
+      <div class="picS">
+      <img src="./assets/img/husband.webp">
+      </div>
+      <span class="categoryTabs1">Husband </span>
     </div>
-    <div class="sub-category1">
-      <img class="categoryImg" src="./assets/img/wife.avif">
+    <div class="item">
+      <div class="picS">
+      <img src="./assets/img/wife.avif">
+      </div>
       <span class="categoryTabs1">Wife</span>
     </div>
-    <div class="sub-category1">
-      <img class="categoryImg" src="./assets/img/mom.avif">
+    <div class="item">
+      <div class="picS">
+      <img src="./assets/img/mom.avif">
+      </div>
       <span class="categoryTabs1">Mom</span>
     </div>
-    <div class="sub-category1">
-      <img class="categoryImg" src="./assets/img/dad.avif">
+    <div class="item">
+      <div class="picS">
+      <img src="./assets/img/dad.avif">
+      </div>
       <span class="categoryTabs1">Dad</span>
     </div>
-    <div class="sub-category1">
-      <img class="categoryImg" src="./assets/img/sister.avif">
+    <div class="item">
+      <div class="picS">
+      <img src="./assets/img/sister.avif">
+      </div>
       <span class="categoryTabs1">Sister</span>
     </div>
-    <div class="sub-category1">
-      <img class="categoryImg" src="./assets/img/brother.avif">
+    <div class="item">
+      <div class="picS">
+      <img src="./assets/img/brother.avif">
+      </div>
       <span class="categoryTabs1">Brother</span>
     </div>
-
   </div>
-</div>
-<div class="aa">
-  <div class="grid1">
+
+  <div class="aa">
+    <div class="grid1">
       <div class="hhh">
-          <h3>Valentine's day Gifts</h3>
-          <h4>View All...</h4>
+        <h3>Valentine's day Gifts</h3>
+        <h4>View All...</h4>
       </div>
       <div class="first-grid">
-          <div class="container1">
-              <img src="./assets/img/gridimg1.avif">
-              <span class="card"> love Cards</span>
-          </div>
-          <div class="container2">
-              <img src="./assets/img/gridimg2.webp">
-              <span class="card">lamp</span>
-          </div>
-          <div class="container3">
-              <img src="./assets/img/gridimg3.webp">
-              <span class="card">photo chocolates</span>
-          </div>
-          <div class="container4">
-              <img src="./assets/img/gridimg4.webp">
-              <span class="card">Teddy</span>
-          </div>
-          <div class="container5">
-              <img src="./assets/img/gridimg5.avif">
-              <span class="card">Jewellery</span>
-          </div>
-          <div class="container6">
-              <img src="./assets/img/gridimg6.avif">
-              <span class="card">Perfumes</span>
-          </div>
+        <div class="container1">
+          <img src="./assets/img/gridimg1.avif">
+          <span class="card"> love Cards</span>
+        </div>
+        <div class="container2">
+          <img src="./assets/img/gridimg2.webp">
+          <span class="card">lamp</span>
+        </div>
+        <div class="container3">
+          <img src="./assets/img/gridimg3.webp">
+          <span class="card">photo chocolates</span>
+        </div>
+        <div class="container4">
+          <img src="./assets/img/gridimg4.webp">
+          <span class="card">Teddy</span>
+        </div>
+        <div class="container5">
+          <img src="./assets/img/gridimg5.avif">
+          <span class="card">Jewellery</span>
+        </div>
+        <div class="container6">
+          <img src="./assets/img/gridimg6.avif">
+          <span class="card">Perfumes</span>
+        </div>
       </div>
-      
+
       <!-- <div class="aa">
       <div class="grid2">
         <div class="hhh">
@@ -162,39 +186,39 @@
 
 
 
-  </div>
-  <div class="grid1">
+    </div>
+    <div class="grid1">
       <div class="hhh">
-          <h3>Personalised  Gifts</h3>
-          <h4>View All...</h4>
+        <h3>Personalised Gifts</h3>
+        <h4>View All...</h4>
       </div>
       <div class="first-grid">
-          <div class="container1">
-              <img src="./assets/img/img01.avif">
-              <span class="card"> love Cards</span>
-          </div>
-          <div class="container2">
-              <img src="./assets/img/gridimg2.webp">
-              <span class="card">lamp</span>
-          </div>
-          <div class="container3">
-              <img src="./assets/img/gridimg3.webp">
-              <span class="card">photo chocolates</span>
-          </div>
-          <div class="container4">
-              <img src="./assets/img/gridimg4.webp">
-              <span class="card">Teddy</span>
-          </div>
-          <div class="container5">
-              <img src="./assets/img/gridimg5.avif">
-              <span class="card">Jewellery</span>
-          </div>
-          <div class="container6">
-              <img src="./assets/img/gridimg6.avif">
-              <span class="card">Perfumes</span>
-          </div>
+        <div class="container1">
+          <img src="./assets/img/img01.avif">
+          <span class="card"> love Cards</span>
+        </div>
+        <div class="container2">
+          <img src="./assets/img/gridimg2.webp">
+          <span class="card">lamp</span>
+        </div>
+        <div class="container3">
+          <img src="./assets/img/gridimg3.webp">
+          <span class="card">photo chocolates</span>
+        </div>
+        <div class="container4">
+          <img src="./assets/img/gridimg4.webp">
+          <span class="card">Teddy</span>
+        </div>
+        <div class="container5">
+          <img src="./assets/img/gridimg5.avif">
+          <span class="card">Jewellery</span>
+        </div>
+        <div class="container6">
+          <img src="./assets/img/gridimg6.avif">
+          <span class="card">Perfumes</span>
+        </div>
       </div>
-  </div>
+    </div>
   </div>
   <div class="second-section">
     <h3>POPULAR</h3>
@@ -205,228 +229,240 @@
     <h4>Engraved Wooden Plaques</h4>
 
   </div>
-       <div class="card-container">
-           <div class="cards">
-           <img src="./assets/img/cup1.webp">
-            <div class="card-content">
-            <h4>Personalised Family Coffee Mug ...</h4>
-            <h5>₹ 499.00</h5>
-            <span class="offer1"> Save₹100.00</span>
-            <span class="offer2">offer</span>
-            </div>
-            </div>
-            <div class="cards">
-              <img src="./assets/img/board2.webp">
-               <div class="card-content">
-               <h4>Happy Valentine's Day With Lovely Me</h4>
-               <h5>₹ 499.00</h5>
-               <span class="offer1"> Save₹100.00</span>
-            <span class="offer2">offer</span>
-               </div>
-               </div>
-               <div class="cards">
-                <img src="./assets/img/7day.webp">
-                 <div class="card-content">
-                 <h4>Valentine 7 Day's Surprise</h4>
-                 <h5>₹3,499</h5>
-                 <span class="offer1"> Save₹100.00</span>
-            <span class="offer2">offer</span>
-                 </div>
-                 </div>
-                 <div class="cards">
-                  <img src="./assets/img/game.webp">
-                   <div class="card-content">
-                   <h4>Sexy Romantic Tic Tac Toe Game for...</h4>
-                   <h5>₹ 899.00</h5>
-                   <span class="offer1"> Save₹100.00</span>
-            <span class="offer2">offer</span>
-                   </div>
+  <div class="card-container">
+    <div class="cards">
+      <img src="./assets/img/cup1.webp">
+      <div class="card-content">
+        <h4>Personalised Family Coffee Mug ...</h4>
+        <h5>₹ 499.00</h5>
+        <span class="offer1"> Save₹100.00</span>
+        <span class="offer2">offer</span>
       </div>
     </div>
-    <div class="second-section">
-      <h3>MEMORABLE GESTURES</h3>
-    </div>
-    <div class="item-list">
-      <h4>Rose Day</h4>
-      <h4>Chocolate Day</h4>
-      <h4>Flowers</h4>
-      <h4>Cakes</h4>
-  
-    </div>
-         <div class="card-container">
-             <div class="cards">
-             <img src="./assets/img/b1.webp">
-              <div class="card-content">
-              <h4>Real Preserved Forever Rose..</h4>
-              <h5>₹ 1,299.00</h5>
-              <span class="offer1"> Save₹100.00</span>
-              <span class="offer2">offer</span>
-              </div>
-              </div>
-              <div class="cards">
-                <img src="./assets/img/b2.webp">
-                 <div class="card-content">
-                 <h4>Vivid - 10 Red Roses Bouquet</h4>
-                 <h5>₹ 699.00</h5>
-                 <span class="offer1"> Save₹100.00</span>
-              <span class="offer2">offer</span>
-                 </div>
-                 </div>
-                 <div class="cards">
-                  <img src="./assets/img/b3.webp">
-                   <div class="card-content">
-                   <h4>Blooming Gold Plated Rose</h4>
-                   <h5>₹2,793</h5>
-                   <span class="offer1"> Save₹100.00</span>
-              <span class="offer2">offer</span>
-                   </div>
-                   </div>
-                   <div class="cards">
-                    <img src="./assets/img/b4.webp">
-                     <div class="card-content">
-                     <h4>Real Preserved Forever Rose Red..</h4>
-                     <h5>₹ 999</h5>
-                     <span class="offer1"> Save₹100.00</span>
-              <span class="offer2">offer</span>
-                     </div>
-        </div>
-        </div>
-        <div class="city">
-
-        <div class="title">  
-          <h3>CITIES</h3></div>
-          <div class="nav1">
-            <div class="category1">
-              <img src="./assets/img/c1.avif" >
-                <p>Delhi</p>
-            </div>
-            <div class="category1">
-              <img src="./assets/img/c2.avif">
-              <p>Bangalore</p>
-            </div>
-            <div class="category1">
-              <img src="./assets/img/c3.avif">
-              <p>Mumbai</p>
-        
-            </div>
-            <div class="category1">
-              <img src="./assets/img/c4.avif">
-              <p>Gurgaon</p>
-        
-            </div>
-            <div class="category1">
-              <img src=".//assets/img/c5.avif">
-              <p>Kolkata</p>
-            </div>
-            <div class="category1">
-              <img src="./assets/img/c6.avif">
-              <p>Chennai</p>
-            </div>
-            <div class="category1">
-              <img src="./assets/img/c7.avif">
-              <p>Ahmedabad</p>
-            </div>
-            <div class="category1">
-              <img src="./assets/img/c8.avif">
-              <p>Lucknow</p>
-             </div>
-            </div>
-
-        </div>
+    <div class="cards1">
+      <img src="./assets/img/board2.webp">
+      <div class="card-content">
+        <h4>Happy Valentine's Day With Lovely Me</h4>
+        <h5>₹ 499.00</h5>
+        <span class="offer1"> Save₹100.00</span>
+        <span class="offer2">offer</span>
       </div>
-        <div class="last-section">
-            <div class="icontext">
-              <i class="fa-solid fa-truck"></i>
-              <p>Fast Delivery</p>
-             <p> We deliver gifts all over India </p>
-        </div>
-        <div class="icontext">
-          <i class="fa-solid fa-heart"></i>
-          <p>Made in India</p>
-         <p>  All our products are made in India</p>
+    </div>
+    <div class="cards2">
+      <img src="./assets/img/7day.webp">
+      <div class="card-content">
+        <h4>Valentine 7 Day's Surprise</h4>
+        <h5>₹3,499</h5>
+        <span class="offer1"> Save₹100.00</span>
+        <span class="offer2">offer</span>
+      </div>
+    </div>
+    <div class="cards2">
+      <img src="./assets/img/game.webp">
+      <div class="card-content">
+        <h4>Sexy Romantic Tic Tac Toe Game for...</h4>
+        <h5>₹ 899.00</h5>
+        <span class="offer1"> Save₹100.00</span>
+        <span class="offer2">offer</span>
+      </div>
+    </div>
+  </div>
+  <div class="second-section">
+    <h3>MEMORABLE GESTURES</h3>
+  </div>
+  <div class="item-list">
+    <h4>Rose Day</h4>
+    <h4>Chocolate Day</h4>
+    <h4>Flowers</h4>
+    <h4>Cakes</h4>
+
+  </div>
+  <div class="card-container">
+    <div class="cards">
+      <img src="./assets/img/b1.webp">
+      <div class="card-content">
+        <h4>Real Preserved Forever Rose..</h4>
+        <h5>₹ 1,299.00</h5>
+        <span class="offer1"> Save₹100.00</span>
+        <span class="offer2">offer</span>
+      </div>
+    </div>
+    <div class="cards1">
+      <img src="./assets/img/b2.webp">
+      <div class="card-content">
+        <h4>Vivid - 10 Red Roses Bouquet</h4>
+        <h5>₹ 699.00</h5>
+        <span class="offer1"> Save₹100.00</span>
+        <span class="offer2">offer</span>
+      </div>
+    </div>
+    <div class="cards2">
+      <img src="./assets/img/b3.webp">
+      <div class="card-content">
+        <h4>Blooming Gold Plated Rose</h4>
+        <h5>₹2,793</h5>
+        <span class="offer1"> Save₹100.00</span>
+        <span class="offer2">offer</span>
+      </div>
+    </div>
+    <div class="cards2">
+      <img src="./assets/img/b4.webp">
+      <div class="card-content">
+        <h4>Real Preserved Forever Rose Red..</h4>
+        <h5>₹ 999</h5>
+        <span class="offer1"> Save₹100.00</span>
+        <span class="offer2">offer</span>
+      </div>
+    </div>
+  </div>
+  <div class="city">
+
+    <div class="title">
+      <h3>CITIES</h3>
+    </div>
+    <div class="nav1">
+      <div class="category1">
+        <img src="./assets/img/c1.avif">
+        <p>Delhi</p>
+      </div>
+      <div class="category1">
+        <img src="./assets/img/c2.avif">
+        <p>Bangalore</p>
+      </div>
+      <div class="category1">
+        <img src="./assets/img/c3.avif">
+        <p>Mumbai</p>
+
+      </div>
+      <div class="category1">
+        <img src="./assets/img/c4.avif">
+        <p>Gurgaon</p>
+
+      </div>
+      <div class="category2">
+        <img src=".//assets/img/c5.avif">
+        <p>Kolkata</p>
+      </div>
+      <div class="category2">
+        <img src="./assets/img/c6.avif">
+        <p>Chennai</p>
+      </div>
+      <div class="category2">
+        <img src="./assets/img/c7.avif">
+        <p>Ahmedabad</p>
+      </div>
+      <div class="category2">
+        <img src="./assets/img/c8.avif">
+        <p>Lucknow</p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <div class="last-section">
+    <div class="icontext">
+      <i class="fa-solid fa-truck"></i>
+      <p>Fast Delivery</p>
+      <p> We deliver gifts all over India </p>
+    </div>
+    <div class="icontext">
+      <i class="fa-solid fa-heart"></i>
+      <p>Made in India</p>
+      <p> All our products are made in India</p>
     </div>
     <div class="icontext">
       <i class="fa-solid fa-lock"></i>
       <p>Secure payment</p>
-     <p> Your payment information is processed securely </p>
-</div>
-<div class="icontext">
-  <i class="fa-solid fa-envelope"></i>
-  <p>Contact us</p>
- <p> Need to contact us? Just send us an e-mail at</p> 
-  <p>cx@giftcart.com or call us at +91-9910644899 </p>
-  
-</div>
-        </div>
-        <div class="footer-container">
-          <div class="footer-section">
-              <h4>INFORMATION</h4>
-              <ul>
-                  <li>Blog</li>
-                  <li>About Us</li>
-                  <li>Privacy Policy</li>
-                  <li>Orders & Shipping</li>
-                  <li>Refund & Return</li>
-                  <li>Miscellaneous FAQs</li>
-                  <li>FAQ</li>
-              </ul>
-          </div>
+      <p> Your payment information is processed securely </p>
+    </div>
+    <div class="icontext">
+      <i class="fa-solid fa-envelope"></i>
+      <p>Contact us</p>
+      <p> Need to contact us? Just send us an e-mail at</p>
+      <p>cx@giftcart.com or call us at +91-9910644899 </p>
 
-          <div class="footer-section">
-            <h3>HELPFUL LINKS</h3>
-            <ul>
-                <li>Track Your Order</li>
-                <li>Suggest a Gift</li>
-                <li>Become Our Vendor</li>
-                <li>Contact Us</li>
-                <li>Bulk Gifting</li>
-                <li>Coupon Partners</li>
-                <li>Terms of Service</li>
-                <li>Refund Policy</li>
-                <li>Discount Codes</li>
-            </ul>
-        </div>
-
-        <div class="footer-section newsletter">
-            <h3>NEWSLETTER</h3>
-            <p>Get unique, Hatke gift ideas and</p>
-              latest offers delivered to your inbox</p>
-            <form>
-                <input type="email" placeholder="   Your e-mail     →" >
-                
-            </form>
-        </div>
-
-        <div class="footer-section contact">
-            <h3>CONTACT US</h3>
-            <p><strong>Dedicated Help Center</strong></p>
-            <p>Call Us: +91-9910644899</p>
-            <p>(9:00AM - 9:00PM)</p>
-            <p>Email Us at: cx@giftcart.com</p>
-        </div>
-
-        <div class="footer-section follow-us">
-            <h3>FOLLOW US</h3>
-            <div class="social-icons">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-pinterest"></i>
-                <i class="fab fa-youtube"></i>
-                <i class="fab fa-linkedin-in"></i>
-            </div>
-        
+    </div>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h4>INFORMATION</h4>
+      <ul>
+        <li>Blog</li>
+        <li>About Us</li>
+        <li>Privacy Policy</li>
+        <li>Orders & Shipping</li>
+        <li>Refund & Return</li>
+        <li>Miscellaneous FAQs</li>
+        <li>FAQ</li>
+      </ul>
     </div>
 
+    <div class="footer-section">
+      <h3>HELPFUL LINKS</h3>
+      <ul>
+        <li>Track Your Order</li>
+        <li>Suggest a Gift</li>
+        <li>Become Our Vendor</li>
+        <li>Contact Us</li>
+        <li>Bulk Gifting</li>
+        <li>Coupon Partners</li>
+        <li>Terms of Service</li>
+        <li>Refund Policy</li>
+        <li>Discount Codes</li>
+      </ul>
+    </div>
 
-      
-    
-  
+    <div class="footer-section newsletter">
+      <h3>NEWSLETTER</h3>
+      <p>Get unique, Hatke gift ideas and</p>
+      latest offers delivered to your inbox</p>
+      <form>
+        <input type="email" placeholder="   Your e-mail     →">
 
+      </form>
+    </div>
+
+    <div class="footer-section contact">
+      <h3>CONTACT US</h3>
+      <p><strong>Dedicated Help Center</strong></p>
+      <p>Call Us: +91-9910644899</p>
+      <p>(9:00AM - 9:00PM)</p>
+      <p>Email Us at: cx@giftcart.com</p>
+    </div>
+
+    <div class="footer-section follow-us">
+      <h3>FOLLOW US</h3>
+      <div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-pinterest"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+
+    </div>
   </div>
-</div>
 
-    
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        1000: {
+          items: 8
+        },
+        600: {
+          items: 5
+        },
+        0: {
+          items: 3
+        }
+      }
+    })
+  </script>
+
 
 </body>
 

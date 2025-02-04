@@ -5,11 +5,11 @@
      display: flex;
      justify-content:space-between;
      align-items: center;
-    padding: 10px 30px;
+    padding: 2px 20px 0px 20px;
     font-size: 20px;
     border-bottom: 1px solid black;
     }
-ul{
+.header>ul{
     display: flex;
     gap: 40px;
     font-size: 15px;
@@ -25,16 +25,19 @@ ul{
     display:flex;
    column-gap: 10px;
 }
-.nav{
-  display:flex;
-  flex-direction:row;
-  padding:30px;
-  gap:90px;
-  
-}
-.category>img{
+.item>img{
   height: 120px;
-
+  object-fit: fill;
+ 
+}
+.owl-carousel .owl-item img{
+  width: auto;
+}
+ .owl-carousel .owl-dots.disabled {
+  display: none;
+}
+.pic{
+  height: 50px;
 }
 
 .section{
@@ -162,7 +165,21 @@ gap: 30px;
   margin: 8px;
   border-radius:0px;
 }
-.cards{
+.cards1>img{
+  height: 300px;
+  width:300px;
+  margin: 8px;
+  border-radius:0px;
+}
+.cards2>img{
+  height: 300px;
+  width:300px;
+  margin: 8px;
+  border-radius:0px;
+
+}
+
+.cards,.cards1,.cards2{
   position: relative;
   width:400px;
   height:550px;
@@ -228,6 +245,12 @@ h4{
   height: auto;
   
 }
+.category2>img{
+  border-radius:  150px;
+  object-fit: fill;
+  height: auto;
+  
+}
 p{
   text-align: center;
   font-family: 'Poppins',sans-serif;
@@ -283,35 +306,15 @@ li,ul{
 }
 
 
-@media screen and (max-width: 600px) {
-  .logo{
-    max-width: 90px;
-
-  }
-  .header {
-    display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 2px 7px 0px 135px;
-      font-size: 17px;
-  }
-   ul{
-    display:none;
-  }
-.nav{
-      display:grid;
-      grid-template-columns: repeat(3,1fr);
-    gap: 0px;
-    padding: 0px;
-    
-  }
-  img:nth-child(3),:nth-child(4),:nth-child(5),:nth-child(6),:nth-child(7)
-  {
-    display: none;
-  }
+@media screen and (max-width:600px) {
+.header>ul{
+  display: none;
+}
+  
 .section{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+  display:grid;
+  grid-template-rows: auto auto;
+ 
 }
 .categoryTabs1{
   position: absolute;
@@ -323,14 +326,160 @@ li,ul{
   border-radius: 19px;
   text-align:center;
 
-}    
+}  
+.first-grid{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  width:400px;
+
+}
+.aa{
+  display: flex;
+  flex-direction: column;
+}
+
+
+  .card-content {
+    font-size: 16px; 
+  }
+
+  .cards {
+    width: 90%; 
+    margin: auto; 
+  }
+  .cards1{
+    display: none;
+  }
+  .cards2{
+    display: none;
+  }
+
+ .second-section{
+display: flex;
+ }
+
+
+.item-list{
+display: flex;
+padding: 5px;
+}
+.nav1 {
+  flex-direction: row;
+  align-items: center;
+  gap: 20px; 
+}
+
+.category1 > img {
+  width: 80px; 
+  height: 80px;
+}
+.category2{
+  display: none;
+}
+.last-section > :first-child {
+      width: 100%;
+      text-align: center;
+      padding: 15px;
+    }
+    .last-section > :nth-child(2),
+    .last-section > :nth-child(3),
+    .last-section > :nth-child(4) {
+      display: none;
+
+    
+}
+.footer-container {
+  flex-direction:column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .footer-section > ul {
+    padding-left: 0;
+    align-items: center;
+  }
+
+  input {
+    width: 90%;
+    padding: 10px;
+  }
+
+  li, ul {
+    text-align: center;
+  }
+  .owl-nav{
+    display: none;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+  .header>ul{
+    display: none;
+  }
+  .aa{
+    display: flex;
+    flex-direction: column;
+  }
+  .item-list{
+    display:flex;
+    flex-direction:row;
+    padding-left:50px;
+  gap: 30px;
+  }
+  .cards2{
+    display: none;
+  }
+  .category2{
+    display: none;
+  }
+  .last-section > :nth-child(2),
+    .last-section > :nth-child(3),
+    .last-section > :nth-child(4) {
+      display: none;
+
+
+}
+.footer-container {
+  flex-direction:column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .footer-section > ul {
+    padding-left: 0;
+    align-items: center;
+  }
+
+  input {
+    width: 90%;
+    padding: 10px;
+  }
+
+  li, ul {
+    text-align: center;
+  }
+  .owl-nav{
+    display: none;
+  }
   
   
+ 
+   
 
  
 
 
-}
+
+
+
+
+
+ 
+
+
+
 
 
 
